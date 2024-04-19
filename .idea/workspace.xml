@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6e0f0caa-0f95-4d61-89f4-9afed5d03156" name="Changes" comment="added README.md" />
+    <list default="true" id="6e0f0caa-0f95-4d61-89f4-9afed5d03156" name="Changes" comment="added README.md">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -23,6 +27,9 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
   <component name="ProjectId" id="2YqyRZdxagt47Sn8c9xyTqvh4jr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -34,10 +41,18 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Application.Main.executor": "Run",
+    "JUnit.All in HashMap.executor": "Run",
+    "JUnit.OnlineStoreDatabaseImplTest.displayAllCustomers.executor": "Run",
+    "JUnit.OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound.executor": "Coverage",
+    "JUnit.Run Tests.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -46,7 +61,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Run Tests">
+  <component name="RunManager" selected="JUnit.OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="codefinity.Main" />
       <module name="HashMap" />
@@ -56,6 +71,34 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in HashMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineStoreDatabaseImplTest.displayAllCustomers" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OnlineStoreDatabaseImplTest" />
+      <option name="METHOD_NAME" value="displayAllCustomers" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HashMap" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="OnlineStoreDatabaseImplTest" />
+      <option name="METHOD_NAME" value="placeOrder_Failure_ProductNotFound" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -73,10 +116,16 @@
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="JUnit.Run Tests" />
+      <item itemvalue="JUnit.All in HashMap" />
+      <item itemvalue="JUnit.OnlineStoreDatabaseImplTest.displayAllCustomers" />
+      <item itemvalue="JUnit.OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.OnlineStoreDatabaseImplTest.displayAllCustomers" />
+        <item itemvalue="JUnit.All in HashMap" />
       </list>
     </recent_temporary>
   </component>
@@ -123,5 +172,29 @@
     <MESSAGE value="Updated OnlineStoreDatabaseImpl.java, added test cases into the main class, added unit tests into the OnlineStoreDatabaseImplTest.java" />
     <MESSAGE value="added README.md" />
     <option name="LAST_COMMIT_MESSAGE" value="added README.md" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java</url>
+          <line>64</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java</url>
+          <line>63</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/codefinity/Task/OnlineStoreDatabaseImpl.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/HashMap_Task$OnlineStoreDatabaseImplTest_placeOrder_Failure_ProductNotFound.ic" NAME="OnlineStoreDatabaseImplTest.placeOrder_Failure_ProductNotFound Coverage Results" MODIFIED="1713544974485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true" />
   </component>
 </project>
